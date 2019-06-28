@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+body {
+  background-image: url(oil\ 4.png );
+  background-size: cover;
+  height: 100vh;
+}
+
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li  a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s
+}
+
+ul li a:hover{
+  background-color: #ffffff;
+  color: #000;
+}
+
+ul li.active a{
+  background-color: #ffffff;
+  color: #000;
+}
+.logo img{
+  float: left;
+  width: 150px;
+  height: auto;
+} 
+
+.login-page {
+
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #fff transparent;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+
+
+}
+
+.form input {
+  font-family: 'Times New Roman', Times, serif;
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  
+}
+
+.form button {
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #00008b;
+  color: #f2f2f2;
+  width: 100%;
+  padding: 15PX;
+  font-size: 15px;
+  cursor: pointer;
+  
+}
+
+.form .lego a{
+
+  margin: 15px 0 0;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form h1{
+
+  color: #f2f2f2;
+
+}
+
+
+
+
+

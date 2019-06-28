@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* height: 100%; */
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../pexels-photo-87236.jpeg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin: 25px;
+    padding: 20px
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li  a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s
+}
+
+ul li a:hover{
+    background-color: #ffffff;
+    color: #000;
+}
+ 
+ul li.active a{
+    background-color: #ffffff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+  
+}
+
+.title{
+    font-size: 50%;  
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-40%,-40%);
+      
+      
+}
+
+.title h1{
+    color: #ffffff;
+    font-size: 70px;
+}
+
+.button{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: 1px solid #ffffff;
+    transition: 0.6s ease;
+
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    color: #000;
+}
+
+#footer {
+    background:#d3d3d3;  
+    color:  #303036;
+    height:300px;
+    text-align: center;
+    
+}
+
+.footer-content{
+    /* border: 1px solid black; */
+    height: 350px;
+    display: flex;
+    position: relative;
+    text-align: left;
+
+}
+
+.footer-section {
+    flex: 1;
+    /* border: 3px solid white; */
+}
+
+.footer-bottom {
+background: #343434;
+color: #686868;
+height:50px;
+width: 100%;
+text-align: center;
+position: fixed;
+bottom: 0px;
+left: 0px;
+padding-top: 10px;    
+}
+
+
+
+.col-md-3:hover{
+    cursor: pointer;
+}
+
+.icons {
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 80%;
+    height: 80px;  
+}
+
+h1:after {
+    content: '';
+    background:white;
+    display: block;
+    width: 150px;
+    height:3px;
+    margin:10px auto;
+    }
+    
+    
